@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adarsh's Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="Images/logo.png"
+      type="Image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="Images/adarsh.jpeg"
+              alt="Adarsh Shukla"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Adarsh Shukla">Adarsh Shukla</h1>
+            <br>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:Adarsh11003@gmail.com" class="contact-link">adarsh11003@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1982-06-23">03 oct, 2007</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Uttar Pradesh, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/adarsh-shukla-771a17305/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://github.com/adarshshukla227" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.instagram.com/adarsh_shukla_2727/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a proactive and ambitious <strong>BCA professional</strong> with a strong foundation in
+              <strong>programming and problem-solving</strong>.
+            </p>
+            <p>
+              I enjoy the process of turning ideas into working solutions — understanding a problem, building
+              the logic behind it, and refining it through <strong>testing and feedback</strong>.
+            </p>
+            <p>
+              Through <strong>internships and hands-on projects</strong>, I've developed the ability to pick up
+              new tools and technologies quickly and apply them effectively. I value
+              <strong>continuous learning</strong> and believe good work comes from practical experience, not
+              just theory.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <p class="service-item-text">
+              Currently pursuing my <strong>BCA degree</strong>, I'm focused on strengthening my skills in the
+              <strong>MERN stack (MongoDB, Express.js, React, Node.js)</strong> to build full-stack web applications.
+              I'm actively working on personal projects to apply what I learn in real-world scenarios and grow as a
+              full-stack developer.
+            </p>
+          </section>
+
+          <section class="tech">
+            <h3 class="h3 tech-title">Tech Stack</h3>
+            <ul class="tech-list has-scrollbar">
+              <li class="tech-item">
+                <img src="Images/html.png" alt="HTML" />
+                <p class="tech-item-title">HTML</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/css3.png" alt="CSS" />
+                <p class="tech-item-title">CSS</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/javascript.png" alt="JavaScript" />
+                <p class="tech-item-title">JavaScript</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/react-native.png" alt="React" />
+                <p class="tech-item-title">React</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/angularjs.png" alt="AngularJS" />
+                <p class="tech-item-title">AngularJS</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/vite.png" alt="Vite" />
+                <p class="tech-item-title">Vite</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/nodejs.png" alt="Node.js" />
+                <p class="tech-item-title">Node.js</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/express.png" alt="Express.js" />
+                <p class="tech-item-title">Express.js</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/python.png" alt="Python" />
+                <p class="tech-item-title">Python</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/c.png" alt="C" />
+                <p class="tech-item-title">C</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/cplusplus.png" alt="C++" />
+                <p class="tech-item-title">C++</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/firebase.png" alt="Firebase" />
+                <p class="tech-item-title">Firebase</p>
+              </li>
+              <li class="tech-item">
+                <img src="Images/github.png" alt="GitHub" />
+                <p class="tech-item-title">GitHub</p>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Chhatrapati Shahu Ji Maharaj University, Kanpur</h4>
+                <span>2024 - Present</span>
+                <p class="timeline-text">Bachelors of Computer Applications</p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Maharishi Vidya Mandir, Fatehpur, UP</h4>
+                <span>2024</span>
+                <p class="timeline-text">12th, CBSE, Science Stream</p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Maharishi Vidya Mandir, Fatehpur, UP</h4>
+                <span>2022</span>
+                <p class="timeline-text">10th, CBSE</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Internships & Trainings</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Codec Technologies - MERN Stack Developer</h4>
+                <span>May 2026 — June 2026</span>
+                <p class="timeline-text">
+                  Developed and maintained full-stack web application features using the MERN stack, working across the frontend and backend.
+                  <br>• Developed and maintained full-stack web application features using the MERN stack (MongoDB, Express.js, React.js, and Node.js), implementing responsive user interfaces and RESTful APIs.
+                  <br>• Collaborated with the development team to debug, test, and optimize application performance, while using Git/GitHub for version control and code management.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Allenhouse Institute of Technology - ReactJS Training</h4>
+                <span>July 2025 — Dec 2025</span>
+                <p class="timeline-text">
+                  Trained in ReactJS fundamentals and advanced concepts for building interactive single-page applications.
+                  <br>• Learned component-based architecture, JSX, props, and state management using hooks (useState, useEffect).
+                  <br>• Built responsive UI components and implemented client-side routing using React Router.
+                  <br>• Practiced integrating REST APIs with React applications for dynamic data handling.
+                  <br>• Used Git/GitHub for version control while working on hands-on React exercises and mini-projects.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">TECHKRITI - IIT KANPUR</h4>
+                <span>March 2026</span>
+                <p class="timeline-text">
+                  Attended a Generative AI Workshop at IIT Kanpur (Organized by Techgyan)
+                  <br>• Gained hands-on experience in Generative AI (GenAI) concepts and applications using Python.
+                  <br>• Explored key concepts such as Large Language Models (LLMs), prompt engineering, and text/content generation.
+                  <br>• Worked with tools like OpenAI's GPT and other generative AI APIs for real-world use cases.
+                  <br>• Applied generative AI concepts to build a small project as part of the workshop.
+                  <br><br><br>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C/C++</h5>
+                  <data value="85">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+               <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JAVA</h5>
+                  <data value="80">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Android Studio</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Javascript</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Bootstrap</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Firebase</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">TensorFlow</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ReactJS</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Node.js</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Express.js</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MongoDB</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <br />
+          <section class="timeline">
+            <h3 class="h3 service-title">Achievement & Certifications</h3>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <span>Gold Medal in Badminton at College Exuberance</span>
+              </li>
+              <li class="timeline-item">
+                <span>Finalist in Echokriti Event at College Exuberance</span>
+              </li>
+              <li class="timeline-item">
+                <span>Idea shortlisted for Smart India Hackathon (SIH)</span>
+              </li>
+              <li class="timeline-item">
+                <span>SQL Beginners to Advanced - GREEKSTER</span>
+              </li>
+              <li class="timeline-item">
+                <span>Certified as an AI Tools Expert - Be10X</span>
+              </li>
+              <li class="timeline-item">
+                <span>Certified in Cybersecurity Fundamentals - IBM SkillsBuild</span>
+              </li>
+              <li class="timeline-item">
+                <span>Certified in Generative AI - PW/Microsoft</span>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!-- PROJECTS -->
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title" style="color: white;">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <h4 style="color: rgb(110, 110, 110);">Web Development</h4>
+            <br />
+
+            <ul class="project-list" style="display: flex; flex-direction: column; gap: 20px;">
+
+              <!-- NovaChat Project -->
+              <li class="project-item active" data-filter-item data-category="web development">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <div style="display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -ms-overflow-style: none;">
+                    <img src="Images/novachat1.png" alt="NovaChat" loading="lazy" style="width: 270px; height: auto;" />
+                    <img src="Images/novachat2.png" alt="NovaChat" loading="lazy" style="width: 270px; height: auto;" />
+                    <img src="Images/novachat3.png" alt="NovaChat" loading="lazy" style="width: 270px; height: auto;" />
+                  </div>
+                </figure>
+
+                <h3 class="project-name" style="color: white;">NovaChat - Real-Time Messaging App</h3>
+                <br>
+                <p class="project-description" style="color: white;">
+                  Built a production-ready real-time chat platform featuring 3 chat types (direct, group, AI), 4 message states (sending, sent, delivered, seen), live typing indicators, and Cloudinary-powered media uploads via Socket.io. Integrated 3 AI features using Groq LLM (2 model variants) with dynamic language-switching prompts for multilingual support, secured with JWT authentication and 5 granular admin controls. Powered WebRTC-based voice/video calling with cross-platform support via Capacitor, making it accessible on both web and mobile.
+                  <br><br>
+                  <b>Tools: Groq, Socket.io, Cloudinary, JWT, WebRTC, Capacitor, Node.js, Express, MongoDB</b>
+                </p>
+                <br>
+
+                <!-- NovaChat Live Link -->
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                  <a href="https://novachatapp.onrender.com" target="_blank" style="
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 6px;
+                    background-color: #6c63ff;
+                    color: white;
+                    padding: 8px 16px;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 600;
+                    transition: all 0.2s;
+                  "
+                  onmouseover="this.style.backgroundColor='#5a52d5'; this.style.boxShadow='0 0 12px rgba(108,99,255,0.5)'"
+                  onmouseout="this.style.backgroundColor='#6c63ff'; this.style.boxShadow='none'"
+                  >
+                    🔴 Live Demo
+                  </a>
+                </div>
+              </li>
+
+              <!-- AI Trip Planner Project -->
+              <li class="project-item active" data-filter-item data-category="web development">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <div style="display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -ms-overflow-style: none;">
+                    <img src="Images/trip1.png" alt="trip" loading="lazy" style="width: 270px; height: auto;" />
+                    <img src="Images/trip2.png" alt="trip" loading="lazy" style="width: 270px; height: auto;" />
+                    <img src="Images/trip3.png" alt="trip" loading="lazy" style="width: 270px; height: auto;" />
+                  </div>
+                </figure>
+
+                <h3 class="project-name" style="color: white;">AI Trip Planner - Smart Itinerary Generator</h3>
+                <br>
+                <p class="project-description" style="color: white;">
+                  Built a full-stack AI-powered travel planning platform with Google Gemini API generating personalized itineraries across 23 JWT-secured REST endpoints, integrated 4 geospatial APIs (OpenStreetMap, Nominatim, Overpass, OSRM) for real-time maps and route planning, and implemented Socket.IO for live trip updates.
+                  <br><br>
+                  <b>Tech Stack: React.js, Node.js, Express.js, MongoDB, Google Gemini AI, JWT, Socket.IO, Tailwind CSS, Framer Motion, Leaflet.js, Render, Git</b>
+                </p>
+                <br>
+
+                <!-- AI Trip Planner Live Link -->
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                  <a href="YOUR_TRIP_PLANNER_LIVE_LINK_HERE" target="_blank" style="
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 6px;
+                    background-color: #6c63ff;
+                    color: white;
+                    padding: 8px 16px;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 600;
+                    transition: all 0.2s;
+                  "
+                  onmouseover="this.style.backgroundColor='#5a52d5'; this.style.boxShadow='0 0 12px rgba(108,99,255,0.5)'"
+                  onmouseout="this.style.backgroundColor='#6c63ff'; this.style.boxShadow='none'"
+                  >
+                    🔴 Live Demo
+                  </a>
+                </div>
+              </li>
+
+            </ul>
+          </section>
+        </article>
+
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
